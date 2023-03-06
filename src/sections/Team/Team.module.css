@@ -1,0 +1,32 @@
+/* ////// */
+/* STYLES */
+/* ////// */
+
+/* MOBILE SMALL */
+
+.Container {
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+
+.Title {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    text-align: center;
+    color: #27343C;
+}
+
+.CardContainer {
+    width: 260px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    margin: 0 auto;
+}

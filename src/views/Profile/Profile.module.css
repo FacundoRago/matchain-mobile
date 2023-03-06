@@ -1,0 +1,113 @@
+/* ////// */
+/* STYLES */
+/* ////// */
+
+.Container {
+    background-color: #E6E6E6;
+    height: 100vh;
+}
+
+.ProfileContainer {
+    position: relative;
+    padding-top: 80px;
+}
+
+.Gray {
+    position: relative;
+}
+
+.Background, .BackgroundGray {
+    width: 100%;
+}
+
+.Perfil, .PerfilGray {
+    position: absolute;
+    margin-top: 50px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;
+}
+
+.Name, .NameGray {
+    position: absolute;
+    margin-top: 170px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 150px;
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.BackgroundGray, .PerfilGray {
+    filter: grayscale(100%);
+}
+
+.NameGray {
+    margin-top: -78px;
+}
+
+.Button {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 99;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Banners {
+    width: 180px;
+    margin: 15px auto 0 auto;
+}
+
+.Banner {
+    width: 180px;
+    margin: 5px auto 5px auto;
+}
+
+.CancelButton {
+    height: 50px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #27343C;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Remember {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    width: 290px;
+    margin: 10px auto 10px auto;
+    color: #27343C;
+}

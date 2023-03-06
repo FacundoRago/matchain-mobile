@@ -1,0 +1,102 @@
+/* ////// */
+/* STYLES */
+/* ////// */
+
+/* MOBILE SMALL */
+
+.Container {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+
+.Title {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #27343C;
+}
+
+.RoadMapContainer {
+    display: flex;
+    width: 220px;
+    min-height: 138px;
+    flex-direction: column;
+    margin: 0 auto;
+
+    border-left: 4px solid #27343C;
+}
+
+.LastItem {
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+    /* margin: -10px auto auto 53.8px; */
+    margin: 0 auto;
+}
+
+.Item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.Ball {
+    width: 27px;
+    height: 27px;
+
+    position: absolute;
+    left: -15px;
+    border-radius: 100px;
+    background: #27343C;
+}
+
+.SelectedBall {
+    width: 27px;
+    height: 27px;
+
+    position: absolute;
+    left: -15px;
+    border-radius: 100px;
+    background: #00E1FF;
+    outline: 5px solid #27343C;
+}
+
+.Button {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #27343C;
+
+    margin: 0px;
+    margin-left: 25px;
+    border: none;
+    background: none;
+}
+
+.Button:hover {
+    text-decoration: none;
+}
+
+.Button:not(.nohover):hover {  
+    color: #00E1FF;
+}
+
+.List {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #27343C;
+    list-style: none; 
+    padding-left: 0px; 
+}

@@ -1,0 +1,47 @@
+/* STYLES */
+
+.Container {
+    height: 150px;
+    width: 130px;
+    position: relative;
+}
+
+.Ball {
+    width: 100px;
+    height: 100px;
+
+    margin: 0 auto;
+    border-radius: 100px;
+    background: #00E1FF;
+}
+
+.Image {
+    position: absolute;
+    top: -5px;
+    left: 13px;
+    width: 105px;
+}
+
+.Name {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    text-align: center;
+    margin: 7px auto 0px auto;    
+    color: #27343C;
+}
+
+.Job {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    margin-top: 0px;
+    color: #27343C;
+}

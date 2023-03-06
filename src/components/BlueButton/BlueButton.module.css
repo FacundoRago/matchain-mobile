@@ -1,0 +1,29 @@
+/* STYLES */
+
+.Container {
+    height: 50px;
+    min-width: 100px;
+    background: #00E1FF;
+    border: 7px solid #00E1FF;
+    border-radius: 6px;
+}
+
+.ButtonText {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    margin: 1px 8px auto 8px;
+    color: #27343C;
+}
+
+.Container:hover {
+    background: #27343C;
+    border: 7px solid #00E1FF;
+}
+
+.Container:hover > .ButtonText {
+    color: #FFFFFF;
+}
